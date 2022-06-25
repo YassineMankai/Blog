@@ -77,7 +77,7 @@ params:
     title: "Yassine Mankai."
     subtitle: "I am a passionate 3D Engineer"
     content: "I am interested in both the algorithmic and creative aspects of computer graphics."
-    image: /uploads/photo.png
+    image: "/uploads/photo.jpg"
     button:
       enable: true
       name: "Resume"
