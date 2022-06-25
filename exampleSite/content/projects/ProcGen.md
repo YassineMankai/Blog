@@ -1,10 +1,12 @@
 ---
 title: "Procedural Generation for game development"
+image: "/uploads/cave_generation.PNG"
 content: "implementing unity tools"
-image: "/uploads/cave_finalgrid.PNG"
 links:
     - icon: fab fa-github
       url: https://github.com/YassineMankai/ProceduralCaveGeneartion
+    - icon: fab fa-github
+      url: https://github.com/YassineMankai/ProceduralPlanets
 date: ""
 
 ---
