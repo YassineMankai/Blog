@@ -4,7 +4,8 @@ image: "/uploads/igd900_ingame.png"
 content: " A new VR interaction technique"
 links:
     - icon: fab fa-github
-        url: https://github.com/YassineMankai/Palm_Of_Hand
+      url: https://github.com/YassineMankai/Palm_Of_Hand
+
 ---
 
 # Context: 

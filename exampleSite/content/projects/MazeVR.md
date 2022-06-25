@@ -4,7 +4,8 @@ image: "/uploads/maze.jpg"
 content: "This project is a VR maze-based game "
 links:
     - icon: fab fa-github
-        url: https://github.com/YassineMankai/mazeVR
+      url: https://github.com/YassineMankai/mazeVR
+
 ---
 # Context:
 
