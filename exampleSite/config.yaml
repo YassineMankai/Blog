@@ -26,7 +26,9 @@ Menus:
       url: /projects
       weight: 1
 
-
+params:
+  title: "Personal website"
+  description: "Personal website"
   theme:
     disableThemeToggle: false
     # defaultTheme: "light" # dark
