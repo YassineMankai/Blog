@@ -1,8 +1,7 @@
 ---
 title: 'Procedural Generation for game development'
-description: implementing unity tools
+content: "implementing unity tools"
 github_link: https://github.com/YassineMankai/ProceduralCaveGeneartion
-draft: false
 
 ---
 

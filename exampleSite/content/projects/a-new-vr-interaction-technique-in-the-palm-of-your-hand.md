@@ -1,10 +1,9 @@
 ---
-title: "Within Hands' Reach"
-date: 
-img: "/uploads/igd900_ingame.png"
-description: " A new VR interaction technique"
+title: 'Within Hands' Reach'
+image: /uploads/igd900_ingame.png
+content: " A new VR interaction technique"
 github: https://github.com/YassineMankai/Palm_Of_Hand
-featured: "/"
+
 ---
 
 # Context: 

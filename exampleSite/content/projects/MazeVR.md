@@ -1,10 +1,8 @@
 ---
 title: 'A VR game: MazeVR'
-date: 
-img: "/uploads/maze.jpg"
-description: " This project is a VR maze-based game "
+image: /uploads/maze.jpg
+content: "This project is a VR maze-based game "
 github: https://github.com/YassineMankai/mazeVR
-featured: "/"
 
 ---
 # Context:

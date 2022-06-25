@@ -1,7 +1,6 @@
 ---
 title: 'IGD301: Lab 1 & 2'
-description: Setup a blog and a unity project
-draft: false
+content: Setup a blog and a unity project
 
 ---
 ## Context

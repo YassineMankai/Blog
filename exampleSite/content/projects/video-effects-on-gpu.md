@@ -1,10 +1,8 @@
 ---
 title: 'Video Effects On GPU'
-date: 
-img: "/uploads/videoeffectsongpu.png"
-description: "An application able to apply a series of filters on an image or a video from the GPU via WebGL and OpenGL ES then to display and save the result."
+image: /uploads/videoeffectsongpu.png
+content: "An application able to apply a series of filters on an image or a video from the GPU via WebGL and OpenGL ES then to display and save the result."
 github: "https://github.com/rachedwaly/Video_Effects_On_GPU"
-featured: "/"
 
 ---
 

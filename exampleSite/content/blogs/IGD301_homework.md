@@ -1,7 +1,6 @@
 ---
 title: 'IGD301: Lecture Homework'
-description: My reflexion on some MR subjects
-draft: false
+content: My reflexion on some MR subjects
 
 ---
 

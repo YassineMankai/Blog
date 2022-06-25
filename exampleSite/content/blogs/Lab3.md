@@ -1,7 +1,6 @@
 ---
 title: 'IGD301: Lab 4'
-description: Design and implement a locomotion technique
-draft: false
+content: Design and implement a locomotion technique
 
 ---
 
