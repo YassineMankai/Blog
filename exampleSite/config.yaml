@@ -26,11 +26,6 @@ Menus:
       url: /projects
       weight: 1
 
-params:
-  title: "Personal website"
-  description: "Personal website"
-  # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
 
   theme:
     disableThemeToggle: false
@@ -80,7 +75,7 @@ params:
     title: "Yassine Mankai."
     subtitle: "I am a passionate 3D Engineer"
     content: "I am interested in both the algorithmic and creative aspects of computer graphics."
-    image: /uploads/ymvr.png
+    image: /uploads/photo.png
     button:
       enable: true
       name: "Resume"
@@ -96,7 +91,6 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/uploads/ymvr.png"
     content: |-
       I am a software engineer with a passion for 3D application. I have a background in computer science and mathematics, and I have a keen interest in the intersection of technology and the entertainment business (games and movies). 
       
@@ -126,12 +120,14 @@ params:
           name: "OpennMfx"
           url: "https://openmesheffect.org/"
         content: |
-          I am currently working on a project that will introduce a way to exchange of parametric shapes between multiple DCCs.
+          I am currently working on a project that will introduce a way to exchange parametric shapes between multiple DCCs.
+          
           OpenMfx is a plug-in standard for 3D mesh processing effects. 
-        featuredpoints:
-        - point: Participate in the development of the API.
-        - point: Expand the bank of procedural geometric effects available with OpenMfx. 
-        - point: Integrate the support of OpenMfx effects in various modeling software and game engines (Blender and Unity).
+          
+          Role: 
+            - Participate in the development of the API.
+            - Expand the bank of procedural geometric effects available with OpenMfx. 
+            - Contribute to the integration of OpenMfx effects in Blender and Unity.
 
   # Education
   education:
