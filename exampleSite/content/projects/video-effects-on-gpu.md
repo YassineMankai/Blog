@@ -4,7 +4,8 @@ image: "/uploads/videoeffectsongpu.png"
 content: "An application able to apply a series of filters on an image or a video from the GPU via WebGL and OpenGL ES then to display and save the result."
 links:
     - icon: fab fa-github
-        url: https://github.com/rachedwaly/Video_Effects_On_GPU
+      url: https://github.com/rachedwaly/Video_Effects_On_GPU
+        
 ---
 
 # Context: 
