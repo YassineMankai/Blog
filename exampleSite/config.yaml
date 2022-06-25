@@ -140,14 +140,18 @@ params:
         school:
           name: "Institut Polytechnique de Paris"
           url: "https://www.ip-paris.fr/en"
-        date: "2021 - 2022"
-        # GPA: "3.8 out of 4.0"
+        date: "2019 - 2022"
         content: |-
-          Courses:
-            - Digital representation and analysis of shapes: fundamental concepts for creating and analyzing shapes on the computer (smooth curves, meshes, implicit function, ...)
-            - Computer Animation: practical implementation of animation techniques (procedural motion, interactive shape deformations, skeletal and skinning character animation, physics-based simulation, ...)
-            - Image Synthesis: rendering equation, standard illumination, shading, reflectance models, rendering algorithms (rasterization, ray tracing), hierarchical spatial data structures
-            - Computational Geometry: convex envelopes, Delaunay triangulation, point cloud reconstruction
+          Courses
+          
+          - Digital representation and analysis of shapes: fundamental concepts for creating and analyzing shapes on the computer (smooth curves, meshes, implicit function, ...)
+          
+          - Computer Animation: practical implementation of animation techniques (procedural motion, interactive shape deformations, skeletal and skinning character animation, physics-based simulation, ...)
+          
+          - Image Synthesis: rendering equation, standard illumination, shading, reflectance models, rendering algorithms (rasterization, ray tracing), hierarchical spatial data structures
+
+          - Computational Geometry: convex envelopes, Delaunay triangulation, point cloud reconstruction
+     
       - title: "Engineering Degree"
         school:
           name: "Telecom Paris"
@@ -156,20 +160,22 @@ params:
         GPA: "3.99 out of 4.0"
         content: |-
           Telecom Paris is a highly selective school and has one of France's top five graduate engineering programs. It is considered the leading French school in Information and Communication Technology.
+          
           -1st year: Computer Science Basics, Applied Mathematics
+          
           -2nd year: Double Major in "Computer Graphic & Interactive Systems" and "Image Processing"
+         
           -3rd year: IGD Master (IPP)
-        #featuredLink:
-        #  enable: true
-        #  name: "My academic record"
-         # url: "https://example.com"
       - title: "CPGE, MPSI/MP*"
         school:
           name: "IPEST - Institut préparatoire aux études scientifiques et techniquesIPEST - Institut préparatoire aux études scientifiques et techniques"
         content: |
           Intensive two-year program (math & physics) preparing for the competitive entrance examinations to the French ‘Grandes Écoles’
+          
           admitted to:
+            
             - Concours Centrale-Supélec
+            
             - Concours commun Mines-Ponts
 
 
