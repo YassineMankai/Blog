@@ -20,23 +20,11 @@ Menus:
       url: /blogs
       weight: 1
 
-    #Dropdown menu
-    - identifier: dropdown
-      title: Example dropdown menu
-      name: Dropdown
-      weight: 2
-    - identifier: dropdown1
-      title: example dropdown 1
-      name: example 1
-      url: /#
-      parent: dropdown
+    - identifier: projects
+      name: Projects
+      title: Projects
+      url: /projects
       weight: 1
-    - identifier: dropdown2
-      title: example dropdown 2
-      name: example 2
-      url: /#
-      parent: dropdown
-      weight: 2
 
 params:
   title: "Personal website"
@@ -90,8 +78,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Yassine Mankai."
-    subtitle: "I 3D Engineer"
-    content: "A passionate 3D engineer. I am interested in both the algorithmic and creative aspects of computer graphics."
+    subtitle: "I am a passionate 3D Engineer"
+    content: "I am interested in both the algorithmic and creative aspects of computer graphics."
     image: /uploads/ymvr.png
     button:
       enable: true
@@ -150,11 +138,10 @@ params:
     enable: true
     # index: true
     items:
-      - title: "Master (M2)"
+      - title: "Master (M2): Computer Graphics"
         school:
           name: "Institut Polytechnique de Paris"
           url: "https://www.ip-paris.fr/en"
-        branch: "Computer Graphics"
         date: "2021 - 2022"
         # GPA: "3.8 out of 4.0"
         content: |
