@@ -1,9 +1,11 @@
 ---
 title: "Procedural Generation for game development"
 content: "implementing unity tools"
+image: "/uploads/cave_finalgrid.PNG"
 links:
     - icon: fab fa-github
       url: https://github.com/YassineMankai/ProceduralCaveGeneartion
+date: ""
 
 ---
 
@@ -15,13 +17,14 @@ The main idea of this series is to follow some of his tutorials and reproduce th
 
 ## Cave Generation:
 
-### Goal:
+#### Tutorial: [PlayList](https://www.youtube.com/watch?v=v7yyZZjF1z4&list=PLFt_AvWsXl0eZgMK_DT5_biRkWXftAOf9&ab_channel=SebastianLague)
 
-The goal of this project is to randomly generate a cave plan and then create the appropriate mesh. The player is then instanciated in a fixed corner and should go to all rooms (to color them) to win the game. A cave is defined as a number of rooms connected by bridges. Any room should be accessible from the starting position.
 
-### Implementation:
+#### Goal:
 
-As I stated above, the implementation is partially based on a youtube tutorial. It contained a number of data structure manipulations and algorithm implementations that are outside the scope of this lab. For this, I will spare those details for a potential other post in the future and focus more on the general pipeline.
+The goal of this project is to create a unity tool that randomly generates a cave plan and then create the appropriate mesh. To demonstrate a use case for such system, I used it in a simple roll-a_ball game where the player is instanciated as a cube in a fixed corner and should cover all the rooms (to color them) in order to win the game. A cave is defined as a number of rooms connected by bridges. Any room is ensured to be accessible from the starting position.
+
+#### Implementation:
 
 I will start with the main function that is called each time a cave generation is requested. This function uses a number of methods each one of them implements a step of the pipeline. You can find below a snippet of the code.  
 
@@ -73,7 +76,43 @@ I present below a short video of the final result:
 {{< youtube ouYJ5Ux64c8 >}}
 
 
-### Unity features I learned to use:
+## Planet Generation:
+
+#### Tutorial: [PlayList](https://www.youtube.com/watch?v=QN39W020LqU&list=PLFt_AvWsXl0cONs3T0By4puYy6GM22ko8&ab_channel=SebastianLague)
+
+#### Goal:
+
+The goal of this project is to make a unity tool that 'pseudo-randomly' generates a planet surface and allows the user to define a color map applied according to the point elevation. The system exports a set of parameters that serves as control tools to shape the planet.
+
+#### Implementation:
+
+##### Data representation
+
+The different data structures used in this tool are centered in the C# class *MeshDataStructure*. To simplify the calculations needed, I decided to work internally with a quad-based mesh. Vertices positions are stored in the list *verticesDS* as vector3 points. Faces are stored as a Vector4int list *quadsDS*. Before each 'generate planet call', I apply the noise filters on the point positions and forward this data to the meshFilter component of the GameObject.
+
+
+##### Generating a sphere
+
+To generate the rough surface of a planet, I decided to implement a [catmull-clark subdivision](https://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface) of a cube. For an interation of level 5, the obtained mesh is close to a sphere and the resolution is good enough for a detailed displacement of the points on the surface. The implementation can be found in the *subdivide* of the *MeshDataStructure* class. The calculations are optimized by caching the neighboorhood of each vertex (a map vertex to faces and a map vertex to edges).
+
+##### Using noise to manipulate the surface elevation
+
+Using a implementation of the simplex noise provided by the libnoise-dotnet library, we can implement a noise filter to get a more planet-like shape. To describe various types of continent and island formations, we can accumulate different sets of noises (different parameter values). Each set is a multi-layered noise implemented as the sum of frequency-increasing simplex evaluations. The increase rate of a noise set is determined via the roughness parameter. The persistence parameter is used to modulate the change of the amplitude in relation to the frequency.
+
+#### Working with a node-based shader material
+
+![](/uploads/node_based_shader.png)
+
+I present below a short video of the final result:
+
+{{< youtube gt-e_55kvLU >}}
+
+
+## Unity features I learned to use:
  - Using the *Mesh* and *MeshFilter* components to generate a custom mesh.
  - Using the Universal Render Pipeline to generate a custom shader (Material) using a node-based graphical interface
  - Creating a custom editor (*CustomEditor*) section that appears on the inspector of a gameobject and extend its features with buttons and other editing elements. 
+ - The use of the Gradient unity tool for texture generation.
+
+
+

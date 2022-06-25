@@ -5,6 +5,7 @@ content: " A new VR interaction technique"
 links:
     - icon: fab fa-github
       url: https://github.com/YassineMankai/Palm_Of_Hand
+date: ""
 
 ---
 
