@@ -94,11 +94,11 @@ params:
     enable: true
     title: "About Me"
     content: |-
-      I am a software engineer with a passion for 3D application. I have a background in computer science and mathematics, and I have a keen interest in the intersection of technology and the entertainment business (games and movies). 
+      I am a software engineer with a passion for the 3D world. I have a background in computer science and mathematics, and I have a keen interest in the intersection of technology and the entertainment business (games and movies). 
       
       I am detail-oriented, pragmatic and eager to learn.
 
-      I am currently looking for a R&D opportunity as computer graphics engineer.
+      I am currently looking for a R&D oriented opportunity as a computer graphics engineer.
 
     skills:
       enable: true
