@@ -1,7 +1,7 @@
 ---
 title: 'IGD301: Lab 1 & 2'
 content: Setup a blog and a unity project
-date: ""
+date: 2022-01-15
 
 ---
 ## Context

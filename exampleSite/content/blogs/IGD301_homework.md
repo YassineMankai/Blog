@@ -1,7 +1,7 @@
 ---
 title: 'IGD301: Lecture Homework'
 content: My reflexion on some MR subjects
-date: ""
+date: 2022-01-00
 
 ---
 

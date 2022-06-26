@@ -5,7 +5,7 @@ content: "An application able to apply a series of filters on an image or a vide
 links:
     - icon: fab fa-github
       url: https://github.com/rachedwaly/Video_Effects_On_GPU
-date: ""
+date: 2020-06-27
       
 ---
 
