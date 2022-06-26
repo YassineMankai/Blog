@@ -5,7 +5,7 @@ content: "This project is a VR maze-based game "
 links:
     - icon: fab fa-github
       url: https://github.com/YassineMankai/mazeVR
-date: 2021-09-00
+date: 2021-09-06
 
 ---
 # Context:
