@@ -12,6 +12,9 @@ date: 2022-03-12
 
 X-INF585: Computer Animation
 
+
+{{< youtube sNLf50y6ePw >}}
+
 # Introduction:
 
 This project aims at implementing different features explored by M ̈uller et al in the field of position based dynamics. The main idea behind their work is to create a unified solver to simulate the interaction of different types of 3D objects at once (rigid bodies, cloths, fluids..) given some environmental constraints.
@@ -22,12 +25,6 @@ In order to do so, they proposed to model each object with a set of basic partic
 [Final report](/uploads/REPORT_INF585.pdf)
 
 P.S: More details on the designing and implementation process can be found in the report.
-
-{{< youtube sNLf50y6ePw >}}
-
-# State:
-
-finished
 
 # Group members:
 

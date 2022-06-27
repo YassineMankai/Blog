@@ -12,6 +12,8 @@ date: 2021-09-06
 
 HCI-902a: Fundamentals of XR
 
+{{< youtube 1WCJ7USJIhc >}}
+
 # Introduction:
 
 This project has two main objectives: discovering the process of designing a virtual reality experience and learning the basic tools of Unity. We had at our disposal a Pico G2 4K VR headset with a remote controller and both had 3 degrees of freedom (the 3 axes of rotation). We were asked to start by fixing a problem of our choice and try to solve it by proposing a VR application.
@@ -21,12 +23,6 @@ This project has two main objectives: discovering the process of designing a vir
 [Final report](/uploads/FofER_report.pdf)
 
 P.S: More details on the designing and implementation process can be found in the report.
-
-{{< youtube 1WCJ7USJIhc >}}
-
-# State:
-
-finished
 
 # Group members:
 

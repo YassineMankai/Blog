@@ -11,10 +11,11 @@ date: 2022-02-22
 
 # Context: 
 IGD900: Guided Research Project 
+
+{{< youtube YsNNJCpEYxU >}}
+
 # Setup:
 Oculus Quest + Unity + Oculus Integration + Leap Motion
-# State:
-Finished
 
 [Presentation slides](https://docs.google.com/presentation/d/1t1HLC7VLSA2ZadcfPZ2afdbOa7AGUmJe9tfvkXrHmBk/edit#slide=id.g117e62369a7_0_83)
 
@@ -320,8 +321,6 @@ I created a script *MoleTile* that I attached to this prefab to manage its behav
 The events are activated at fixed time steps or when the player hit a mole. 
 
 ![State machine](/uploads/igd900_molesm.PNG)
-
-{{< youtube YsNNJCpEYxU >}}
  
 # VI\ Potential improvements:
 
